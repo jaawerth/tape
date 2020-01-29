@@ -2344,7 +2344,7 @@ nvm() {
   local ADDITIONAL_PARAMETERS
 
   case $COMMAND in
-    'help' | '--help')
+    '-h' | 'help' | '--help')
       local NVM_IOJS_PREFIX
       NVM_IOJS_PREFIX="$(nvm_iojs_prefix)"
       local NVM_NODE_PREFIX
